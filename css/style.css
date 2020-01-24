@@ -7,6 +7,11 @@ html, body {
     padding: .5rem; 
 }
 
+.under {
+  color: #FFFEFE;
+  display: none;
+}
+
 h1 {
     
 }
@@ -72,7 +77,6 @@ span.menu i {
     justify-content: space-around;
     height:60vh;
     padding-bottom: 2rem;
-    width: auto;
   }
   
   /* The navigation menu links */
@@ -102,6 +106,26 @@ span.menu i {
     margin-left: auto;
     color: #FFFEFE;
 
+  }
+
+  @media only screen and (min-width: 480px) {
+    .container {
+      display: none;
+    }
+
+    .under {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      padding: 0 3rem;
+    }
+
+    .under h1 {
+      color: #FFFEFE;
+      font-size: 2rem;
+    }
   }
 
 
