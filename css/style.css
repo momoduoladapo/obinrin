@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,900i&display=swap');
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    background: #272727;
+    height: auto;
+    padding: .5rem; 
+}
+
+h1 {
+    
+}
+
+h2 {
+
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    width: 90vw;
+    background: #FFFEFE;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#header, .sideMenuLogo {
+    width:auto;
+    height:auto;
+    padding: .5rem .8rem ;
+    background: #FF9D00;
+    border-radius: 20px 20px 0px 0px;
+    display:flex;
+    align-items: center;
+}
+
+#logo, .nav img {
+    width: 30%
+}
+
+.menu{
+    margin-left: auto;
+    align-self: center;
+}
+
+span.menu i {
+    font-size: 1.5rem;
+    color: #FFFEFE;
+  }
+
+/* The side navigation menu */
+.nav {
+    height: 50vh; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 1rem; /* Stay at the top */
+    right: 1rem;
+    background-color: #FF9D00; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:60vh;
+    padding-bottom: 2rem;
+    width: auto;
+  }
+  
+  /* The navigation menu links */
+  .nav > .navMenu > a {
+    padding: .7rem 1rem;
+    background-color: #FFFEFE;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #272727;
+
+  }
+
+  .nav > .navMenu > a > i{
+    margin-right: .5rem;
+  }
+  
+  
+  /* When you mouse over the navigation links, change their color */
+  .nav > .navMenu > a:hover {
+    color: #FFFEFE;
+    background-color: #D93153;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .nav .closebtn {
+    font-size: 1.2rem;
+    margin-left: auto;
+    color: #FFFEFE;
+
+  }
+
+
+
+  
+  
+
