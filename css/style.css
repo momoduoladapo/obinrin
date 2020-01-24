@@ -7,10 +7,7 @@ html, body {
     padding: .5rem; 
 }
 
-.under {
-  color: #FFFEFE;
-  display: none;
-}
+
 
 h1 {
     
@@ -63,7 +60,6 @@ span.menu i {
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 1rem; /* Stay at the top */
-    right: 1rem;
     background-color: #FF9D00; 
     overflow-x: hidden; /* Disable horizontal scroll */
     border-radius: 20px 20px 0px 0px;
@@ -74,8 +70,8 @@ span.menu i {
   .navMenu {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    height:60vh;
+    justify-content: space-evenly;
+    height:50vh;
     padding-bottom: 2rem;
   }
   
@@ -108,27 +104,7 @@ span.menu i {
 
   }
 
-  @media only screen and (min-width: 480px) {
-    .container {
-      display: none;
-    }
-
-    .under {
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-content: center;
-      padding: 0 3rem;
-    }
-
-    .under h1 {
-      color: #FFFEFE;
-      font-size: 2rem;
-    }
-  }
-
-
+ 
 
   
   
